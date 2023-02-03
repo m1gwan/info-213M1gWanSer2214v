@@ -3,7 +3,7 @@ const button = document.querySelector(".preloader-content_button");
 let animInterval;
 let loadInterval;
 
-const videoId = "x6M2Ih3ZZHk"
+const videoId = "KJXISW2wVGo"
 YT.ready(_=>{
     window.player = new YT.Player("player", {
         videoId: videoId,
@@ -12,7 +12,7 @@ YT.ready(_=>{
             "onReady": e => {
                 e.target.setVolume(25);
                 clearInterval(loadInterval)
-                button.innerText = "Don't be afraid, just click"
+                button.innerText = "Welcome to my profile"
                 button.classList.add("ready");
                 button.addEventListener("click", () => {
                     animInterval = setInterval(preloaderAnim, 10);
@@ -47,4 +47,3 @@ function preloaderAnim() {
         player.playVideo();
     };
 };
-
