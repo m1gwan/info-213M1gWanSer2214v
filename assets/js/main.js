@@ -12,8 +12,8 @@ YT.ready(_=>{
             "onReady": e => {
                 e.target.setVolume(25);
                 clearInterval(loadInterval)
-                button.innerText = "Welcome to m1gwan profile"
-                    const videoId = "l_N8Re4PFmg"
+                
+                const videoId = "l_N8Re4PFmg"
 YT.ready(_=>{
     window.player = new YT.Player("player", {
         videoId: videoId,
@@ -21,6 +21,10 @@ YT.ready(_=>{
         events: {
             "onReady": e => {
                 e.target.setVolume(25);
+                clearInterval(loadInterval)
+                
+                
+                button.innerText = "Welcome to m1gwan profile"
                 button.classList.add("ready");
                 button.addEventListener("click", () => {
                     animInterval = setInterval(preloaderAnim, 10);
