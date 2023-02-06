@@ -102,12 +102,11 @@ img {
 .content-logo img {opacity: .8;}
 
 .content-text {
-    margin-right: -50%;
-    left: 50%;
-    font-size: 40px;
+    margin: 50%;
+    font-size: 50px;
     user-select: none;
     letter-spacing: 35px;
-    text-shadow: 0 0 20px #ffffff;
+    text-shadow: 0 0 20px #4B0082;
 }
 
 .content-links {
