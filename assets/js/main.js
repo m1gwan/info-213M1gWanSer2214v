@@ -3,7 +3,7 @@ const button = document.querySelector(".preloader-content_button");
 let animInterval;
 let loadInterval;
 
-const videoId = "yY8dxBvRwoQ"
+const videoId = "osPq9Yb8xm8"
 YT.ready(_=>{
     window.player = new YT.Player("player", {
         videoId: videoId,
