@@ -177,8 +177,4 @@ img {
         font-size: 30px;
         letter-spacing: 8.75px;
     }
-    .content-logo img {
-        opacity: .8; 
-        width: 0px;
-    }
 }
