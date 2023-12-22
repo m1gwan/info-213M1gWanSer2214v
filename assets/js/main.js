@@ -3,14 +3,14 @@ const button = document.querySelector(".preloader-content_button");
 let animInterval;
 let loadInterval;
 
-const videoId = "osPq9Yb8xm8"
+const videoId = "EDjIn91jgYE"
 YT.ready(_=>{
     window.player = new YT.Player("player", {
         videoId: videoId,
         playerVars: { "autoplay": 0, "controls": 0, "loop": 1, "playlist": videoId},
         events: {
             "onReady": e => {
-                e.target.setVolume(50);
+                e.target.setVolume(40);
                 clearInterval(loadInterval)                    
                 button.innerText = "Click Here"
                 button.classList.add("ready");
