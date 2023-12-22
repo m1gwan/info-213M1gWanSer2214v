@@ -180,5 +180,6 @@ img {
     .content-logo img {
         opacity: .8; 
         width: 120px;
+        color: red;
     }
 }
